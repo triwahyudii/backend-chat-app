@@ -1,0 +1,107 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.messages_container {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    border: 2px solid #A149FA;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #e66c15;
+}
+
+.join_message {
+    align-self: center;
+    width: fit-content;
+    background-color: #418f22;
+    padding:  5px 20px;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+
+.sent_message_container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: fit-content;
+    background-color: #f10f0f;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+
+.yuor_name {
+    margin: 0;
+    font-size: 13px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    color: #FBCB0A;
+}
+
+.sent_message {
+    margin: 0;
+}
+
+.receive_message_container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+
+.receiver_name {
+    margin: 0;
+    font-size: 13px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    color: #A149FA;
+}
+
+.receive_message {
+    margin: 0;
+}
+
+.input_container {
+    display: flex;
+    width: 100%;
+}
+
+.input {
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    border-top: 2px solid #FF869E;
+}
+
+.btn {
+    width: 100px;
+    background-color: #490eec;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
